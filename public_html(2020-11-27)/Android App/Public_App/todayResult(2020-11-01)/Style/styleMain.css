@@ -1,0 +1,146 @@
+/* Version Code: 2 */
+
+
+
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #43dde6;
+}
+.mainDiv{
+    box-shadow: 0px 0px 8px black;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 0;
+}
+.resultDiv > div:nth-child(1){
+    border-bottom: 1px solid #46c3db;
+}
+.titleDiv{
+    width: 100%;
+    /* position: absolute; */
+    /* height: initial; */
+    border: 1px solid black;
+    /* background: #1b1e24; */
+    background-color: #0e153a;
+    color: whitesmoke;
+}
+.titleDiv h2, .titleDiv h4{
+    /* color: whitesmoke; */
+    /* padding: 0px 0; */
+    text-align: center;
+}
+.resultDiv{
+    /* border: 1px solid black; */
+    width: 100%;
+    color: #3d2731;
+}
+table{
+    /* border: 1px solid black; */
+    width: 100%;
+}
+.fstClm{
+    border-right: 1px solid #46c3db;
+    padding: 0 1rem;
+    width: 70%;
+    
+}
+.scndClm h1{
+    text-align: center;
+}
+
+
+
+
+/* Previous Results Table Design Start */
+
+.verticalPreRDiv h2{
+    color: #0e153a;
+}
+
+.mainPreRe{
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px -5px rgb(18, 15, 15);
+    -moz-box-shadow: 0px 0px 10px -3px rgb(18, 15, 15);
+    box-shadow: 0px 5px 5px -2px rgb(18, 15, 15);
+    /* height:78px; */
+    border:1px solid #242020;
+    /* margin: 10px 0; */
+    background-color: #43dde6;
+    margin: auto;
+    margin-bottom: 7px;
+    overflow: hidden;
+    position: relative;
+}
+.Image{
+
+    height: 50px;
+    width: 50px;
+    /* margin-top: 14px; */
+    /* margin-bottom: 14px; */
+    margin-left: 5px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Vertical_Box{
+    height:initial;
+    /*margin-left: 5px;*/
+    color: #0e153a;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 60px;
+}
+
+.Vertical_Box h3{
+    /*font-size: 22px;*/
+    /* margin-top: 10px; */
+     margin-bottom: 2px; 
+}
+
+.Vertical_Box h5{
+     margin-top: 2px; 
+    /* color:  #0e153a; */
+}
+
+.Table{
+    /* border: 1px solid red; */
+    width: 40%;
+    /*height: 78px;*/
+    float: right;
+    border-collapse: collapse;
+}
+
+.Header_row{
+            background-color: #0e153a;
+            color: whitesmoke;
+        }
+.Table td,th{
+            text-align:center;
+            border-left: 1px solid black;
+            border-color: #0e153a;
+            font-size: 20px;
+        }
+
+.Table th{
+    padding: 15px 0;
+}
+/* Previous Results Table Design End */
+
+
+
+
+
+
+
+
+
+
+
+

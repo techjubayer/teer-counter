@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teer Counter Official ||Shillong, Khanapara (Guwahati), Juwai Teer Results</title>
+    <meta name="description" content="Teer Counter (Official) - We provide Juwai, Khanapara & Shillong Teer Result on daily basis and also the teer common numbers for each games in various pages"/>
+    <link rel="shortcut icon" href="Image/icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Style/main.css">
+    <link rel="stylesheet" href="Style/header.css">
+    <link rel="stylesheet" href="Style/footer.css">
+    <link rel="stylesheet" href="Style/privacy.css">
+</head>
+<body>
+    <header>
+        <img src="Image/logo.png" alt="Image">
+        <h3>Teer Counter Official</h3>
+        <i id="openNav" class="fa fa-bars" aria-hidden="true"></i>
+        <input id="navCheckbox" type="checkbox" onclick="showSideBar()"/>
+    </header>
+    <main>
+        <aside id="leftAside" class="leftAside">
+            <ul class="navUl">
+                <li onclick="callHome()">
+                    <svg width="18px" height="18px" viewBox="0 0 16 16" class="hsvg bi bi-house-door-fill"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z" />
+                        <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                    </svg>
+                    Home
+                </li>
+                <li>
+                    <svg width="18px" height="18px" viewBox="0 0 16 16" class="hsvg bi bi-calendar-event-fill"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-3.5-7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z" />
+                    </svg>
+                    Previous Results
+                    <ul class="navSubUl">
+                        <li onclick="callSPR()">
+                            <svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-geo-alt-fill"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                            </svg>
+                            Shillong P.R
+                        </li>
+                        <li onclick="callKPR()">
+                            <svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-geo-alt-fill"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                            </svg>
+                            Khanapara P.R</li>
+                        <li onclick="callJPR()">
+                            <svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-geo-alt-fill"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                            </svg>
+                            Juwai P.R
+                        </li>
+                    </ul>
+                </li>
+                <li onclick="callDream()">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="hsvg bi bi-moon" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M14.53 10.53a7 7 0 0 1-9.058-9.058A7.003 7.003 0 0 0 8 15a7.002 7.002 0 0 0 6.53-4.47z" />
+                    </svg>
+                    Dream Numbers
+                </li>
+                <li onclick="callApp()">
+                    <svg width="18px" height="18px" viewBox="0 0 16 16" class="hsvg bi bi-bag-fill" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M8 1a2.5 2.5 0 0 0-2.5 2.5V4h5v-.5A2.5 2.5 0 0 0 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z" />
+                    </svg>
+                    Mobile App
+                </li>
+                <li onclick="callAboutUs()">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="hsvg bi bi-person-circle" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z" />
+                        <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                        <path fill-rule="evenodd"
+                            d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z" />
+                    </svg>
+                    About Us
+                </li>
+                <li onclick="callPrivacy()">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="hsvg bi bi-lock-fill" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.5 9a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-7a2 2 0 0 1-2-2V9z" />
+                        <path fill-rule="evenodd" d="M4.5 4a3.5 3.5 0 1 1 7 0v3h-1V4a2.5 2.5 0 0 0-5 0v3h-1V4z" />
+                    </svg>
+                    Privacy
+                </li>
+            </ul>
+        </aside>
+
+        <section>
+            <div class="mainDiv teerDscrptn">
+                <p class="pDscrptn">The privacy policy below has been compiled to better serve
+                    those who are concerned with how their 'Personally
+                    Identifiable Information' (PII) is being used online.
+                    PII, as described in US privacy law and information
+                    security, is information that can be used on its own or
+                    with other information to identify, contact, or locate a
+                    single person, or to identify an individual in context.
+                    Please read our privacy policy carefully to get a
+                    clear understanding of how we collect, use, protect
+                    or otherwise handle your Personally Identifiable
+                    Information in accordance with our website.</p>
+                </div>
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- DisplayAdSquare1 -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-5590713411868058"
+                 data-ad-slot="9122389971"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+                <div class="mainDiv teerDscrptn">
+                    <h2>Teer Counter Privacy Policy</h2>
+                    <br>
+                <p><b>
+                    What personal information do we collect from the
+                    people that visit our blog, website or app? 
+                  </b>                
+                  <br>
+                  When ordering or registering on our site, as
+                  appropriate, you may be asked to enter your name,
+                  email address, phone number or other details to help
+                  you with your experience.</p>
+                <br>
+                <hr>
+                <br>
+                  <p><b>When do we collect information?</b><br>We collect information from you when you register on
+                    our site or enter information on our site.</p>
+                <br>
+                <hr>
+                <br>
+                <p>
+                    <b>
+                        How do we use your information?
+                    </b>
+                    <br>
+                    We may use the information we collect from you
+                    when you register, make a purchase, sign up for
+                    our newsletter, respond to a survey or marketing
+                    communication, surf the website, or use certain other
+                    site features in the following ways:
+                    <br>
+                    • To quickly process your transactions.
+                </p>
+                <br>
+                <hr>
+                <br>
+                    <p>
+                        <b>
+                            How do we protect your information?
+                        </b>
+                        <br>
+                        We do not use vulnerability scanning and/or scanning
+                        to PCI standards.
+                        We do not use Malware Scanning.
+                        We do not use an SSL certificate
+                        <br>
+                        • We only provide articles and information. We
+                        never ask for personal or private information like
+                        names, email addresses, or credit card numbers.
+                    </p>
+                    <br>
+                    <hr>
+                    <br>
+                    <p>
+                        <b>
+                            Do we use 'cookies'?
+                        </b>
+                        <br>
+                        We do not use cookies for tracking purposes,
+                        you can choose to have your computer warn you
+                        each time a cookie is being sent, or you can choose to
+                        turn off all cookies. You do this through your browser
+                        settings. Since browser is a little different, look at
+                        your browser's Help Menu to learn the correct way to
+                        modify your cookies.
+                        <br>
+                        <br>
+                        If you turn cookies off, Some of the features that make
+                        your site experience more efficient may not function
+                        properly.that make your site experience more efficient
+                        and may not function properly.
+                    </p>
+                    <br>
+                    <hr>
+                    <br>
+                    <p>
+                        <b>
+                            Third-party disclosure
+                        </b>
+                        <br>
+                        We do not sell, trade, or otherwise transfer to outside
+                        parties your Personally Identifiable Information.
+                    </p>
+                    <br>
+                    <hr>
+                    <br>
+                    <p>
+                        <b>
+                            Third-party links
+                        </b>
+                        <br>
+                        We do not include or offer third-party products or
+                        services on our website.
+                    </p>
+                    <br>
+                    <hr>
+                    <br>
+                    <p>
+                        <b>Google</b>
+                        <br>
+                        Google's advertising requirements can be summed
+                        up by Google's Advertising Principles. They are put
+                        in place to provide a positive experience for users.
+                        <a
+                            href="https://support.google.com/adwordspolicy/answer/1316548?hl=en">https://support.google.com</a>
+                        <br>
+                        <br>
+                        We use Google AdSense Advertising on our website.
+                        Google, as a third-party vendor, uses cookies to serve
+                        ads on our site. Google's use of the DART cookie
+                        enables it to serve ads to our users based on previous
+                        visits to our site and other sites on the Internet. Users
+                        may opt-out of the use of the DART cookie by visiting
+                        the Google Ad and Content Network privacy policy.
+                        <br>
+                        <br>
+                        We have implemented the following:
+                        <br>
+                        • Google Display Network Impression Reporting
+                        <br>
+                        <br>
+                        We, along with third-party vendors such as Google
+                        use first-party cookies (such as the Google Analytics
+                        cookies) and third-party cookies (such as the
+                        DoubleClick cookie) or other third-party identifiers
+                        together to compile data regarding user interactions
+                        with ad impressions and other ad service functions as
+                        they relate to our website.
+                    </p>
+                    <br>
+                    <hr>
+                    <br>
+                    <p>
+                        <b>Opting out:</b>
+                        <br>
+                        Users can set preferences for how Google advertises
+                        to you using the Google Ad Settings page.
+                        Alternatively, you can opt out by visiting the Network
+                        Advertising Initiative Opt Out page or by using the
+                        Google Analytics Opt Out Browser add on.
+                    </p>
+                    <br>
+                    <hr>
+                    <br>
+                    <p>
+                        <b>
+                            COPPA (Children Online Privacy Protection Act)
+                        </b>
+                        <br>
+                        When it comes to the collection of personal
+                        information from children under the age of 13 years
+                        old, the Children's Online Privacy Protection Act
+                        (COPPA) puts parents in control. The Federal Trade
+                        Commission, United States' consumer protection
+                        agency, enforces the COPPA Rule, which spells out
+                        what operators of websites and online services must
+                        do to protect children's privacy and safety online.
+                        We do not specifically market to children under the
+                        age of 13 years old.
+                        Do we let third-parties, including ad networks or
+                        plug-ins collect PII from children under 13?
+                    </p>
+                    <br>
+                    <hr>
+                    <br>
+                    <p>
+                        <b>
+                            Fair Information Practices
+                        </b>
+                        <br>
+                        The Fair Information Practices Principles form the
+                        backbone of privacy law in the United States and the
+                        concepts they include have played a significant role in
+                        the development of data protection laws around the
+                        globe. Understanding the Fair Information Practice
+                        Principles and how they should be implemented is
+                        critical to comply with the various privacy laws that
+                        protect personal information.
+                        <br>
+                        <br>
+                        In order to be in line with Fair Information Practices we
+                        will take the following responsive action, should a data
+                        breach occur:
+                        <br>
+                        We will notify the users via in-site notification
+                        <br>
+                        • Within 7 business days
+                        <br><br>
+                        We also agree to the Individual Redress Principle
+                        which requires that individuals have the right to legally
+                        pursue enforceable rights against data collectors and
+                        processors who fail to adhere to the law. This principle
+                        requires not only that individuals have enforceable
+                        rights against data users, but also that individuals
+                        have recourse to courts or government agencies to
+                        investigate and/or prosecute non-compliance by data
+                        processors.
+                    </p>
+                    <br>
+                    <hr>
+                    <br>
+                    <p>
+                        <b>CAN SPAM Act</b>
+                        <br>
+                        The CAN-SPAM Act is a law that sets the rules for
+                        commercial email, establishes requirements for
+                        commercial messages, gives recipients the right to
+                        have emails stopped from being sent to them, and
+                        spells out tough penalties for violations.
+                        <br><br>
+                        We collect your email address in order to:
+                        <br>
+                        • Send information, respond to inquiries, and/or
+                        other requests or questions
+                        <br>
+                        <br>
+                        To be in accordance with CANSPAM, we agree to the
+                        following:
+                        <br>
+                        • Not use false or misleading subjects or email
+                        addresses.
+                        <br><br>
+                        If at any time you would like to unsubscribe from
+                        receiving future emails, you can email us at
+                        and we will promptly remove you from ALL
+                        correspondence.
+                    </p>
+                    <br>
+                    <hr>
+                    <br>
+                    <p>
+                        <b>Contacting Us</b>
+                        <br>
+                        If there are any questions regarding this privacy policy,
+                        you may contact us using the information below.
+                        <br>
+                        <b>
+                            teercounterofficial@gmail.com
+                        </b>
+                    </p>
+            </div>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- DisplayAdSquare1 -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-5590713411868058"
+                 data-ad-slot="9122389971"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </section>
+
+        <aside class="rightAside">
+             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- Side Display Ad -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-5590713411868058"
+                 data-ad-slot="6155539189"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </aside>
+    </main>
+    <footer class="siteFooter">
+        <div>
+            <h6>About</h6>
+            <p class="text-justify">
+                <a href="http://teercounterofficial.com/">Teer Counter Official</a>
+                is a simple blog which collects Shillong, Khanapara and Juwai Teer Results from various sources and displays the Teer Game results on regular basis. We are not responsible for any wrong results displayed here. If someone provide service on behalf of us then we are not responsible for that as we publish results only and never approach anybody with an intention of selling any services. This is completely free blog to be used for viewing daily results and hit numbers only. For accuracy we suggest viewers to appoach local legal teer counters of Shillong, Khanapara and Juwai. Along with that we also provide dream numbers, common numbers, previous results. Our site must be used as information purpose only. We neither motivate anyone to play Archery Teer game nor creating any barrier for playing such games. Consider our site as similar to those who provides job advertisement and exam results.
+            </p>
+        </div>
+        <div class="footerMainDiv">
+            <div class="linkContainer linkContainerL">
+                <h6>Categories</h6>
+                <ul class="footer-links">
+                    <li><a href="http://teercounterofficial.com/">Home Page</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="https://play.google.com/store/apps/details?id=com.sufideveloper.teer&hl=en_IN">Android App</a></li>
+                </ul>
+            </div>
+            <div class="linkContainer linkContainerR">
+                <h6>Quick Links</h6>
+                <ul class="footer-links">
+                    <li><a href="http://teercounterofficial.com/">Teer Results</a></li>
+                    <li><a href="shillongpreviousresults.php">Shillong Previous Results</a></li>
+                    <li><a href="khanaparapreviousresults.php">Khanapara Previous Results</a></li>
+                    <li><a href="juwaipreviousresults.php">Juwai Previous Results</a></li>
+                    <li><a href="dreamnumbers.html">Teer Dream Numbers</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="crtDiv col-md-8 col-sm-6 col-xs-12">
+                <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by
+                    <a href="#">Sufi Developer</a>.
+                </p>
+            </div>
+            <div class=" crtDiv col-md-4 col-sm-6 col-xs-12">
+                <ul class="social-icons">
+                    <li><a class="facebook" href="https://www.facebook.com/Teer-Counter-Official-285405812005113/"><i class="fa fa-facebook"></i></a></li>
+                    <li><a class="twitter" href="https://www.facebook.com/Teer-Counter-Official-285405812005113/"><i class="fa fa-twitter"></i></a></li>
+                    <li><a class="dribbble" href="https://www.facebook.com/Teer-Counter-Official-285405812005113/"><i class="fa fa-dribbble"></i></a></li>
+                    <li><a class="linkedin" href="https://www.facebook.com/Teer-Counter-Official-285405812005113/"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    
+    <script src="Works/nav.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+
+</html>

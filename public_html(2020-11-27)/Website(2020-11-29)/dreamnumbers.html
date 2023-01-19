@@ -1,0 +1,1575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teer Counter Official ||Shillong, Khanapara (Guwahati), Juwai Teer Results</title>
+    <meta name="description" content="Teer Counter (Official) - We provide Juwai, Khanapara & Shillong Teer Result on daily basis and also the teer common numbers for each games in various pages" />
+    <link rel="shortcut icon" href="Image/icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Style/main.css">
+    <link rel="stylesheet" href="Style/header.css">
+    <link rel="stylesheet" href="Style/footer.css">
+     <link rel="stylesheet" href="Style/dreamnumbers.css"> 
+</head>
+<body>
+    <header>
+        <img src="Image/logo.png" alt="Image">
+        <h3>Teer Counter Official</h3>
+        <i id="openNav" class="fa fa-bars" aria-hidden="true"></i>
+        <input id="navCheckbox" type="checkbox" onclick="showSideBar()" />
+    </header>
+    <main>
+        <aside id="leftAside" class="leftAside">
+            <ul class="navUl">
+                <li onclick="callHome()">
+                    <svg width="18px" height="18px" viewBox="0 0 16 16" class="hsvg bi bi-house-door-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z" />
+                        <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                    </svg>
+                    Home
+                </li>
+                <li>
+                    <svg width="18px" height="18px" viewBox="0 0 16 16" class="hsvg bi bi-calendar-event-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-3.5-7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z" />
+                    </svg>
+                    Previous Results
+                    <ul class="navSubUl">
+                        <li onclick="callSPR()">
+                            <svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-geo-alt-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                            </svg>
+                            Shillong P.R
+                        </li>
+                        <li onclick="callKPR()">
+                            <svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-geo-alt-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                            </svg>
+                            Khanapara P.R</li>
+                        <li onclick="callJPR()">
+                            <svg width="18px" height="18px" viewBox="0 0 16 16" class="bi bi-geo-alt-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                            </svg>
+                            Juwai P.R
+                        </li>
+                    </ul>
+                </li>
+                <li onclick="callDream()">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="hsvg bi bi-moon" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M14.53 10.53a7 7 0 0 1-9.058-9.058A7.003 7.003 0 0 0 8 15a7.002 7.002 0 0 0 6.53-4.47z" />
+                    </svg>
+                    Dream Numbers
+                </li>
+                <li onclick="callApp()">
+                    <svg width="18px" height="18px" viewBox="0 0 16 16" class="hsvg bi bi-bag-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 1a2.5 2.5 0 0 0-2.5 2.5V4h5v-.5A2.5 2.5 0 0 0 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z" />
+                    </svg>
+                    Mobile App
+                </li>
+                <li onclick="callAboutUs()">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="hsvg bi bi-person-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z" />
+                        <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                        <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z" />
+                    </svg>
+                    About Us
+                </li>
+                <li onclick="callPrivacy()">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="hsvg bi bi-lock-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.5 9a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-7a2 2 0 0 1-2-2V9z" />
+                        <path fill-rule="evenodd" d="M4.5 4a3.5 3.5 0 1 1 7 0v3h-1V4a2.5 2.5 0 0 0-5 0v3h-1V4z" />
+                    </svg>
+                    Privacy
+                </li>
+            </ul>
+        </aside>
+
+        <section>
+            <div class="mainDiv teerDscrptn">
+                <h3>Looking for Dream Numbers list?</h3>
+                <br>
+                <p class="pDscrptn">You have come to perfect place <b>Teer Counter Official</b>, scroll down to see all the Dream Numbers.</p>
+                <h4>About Dream Numbers:</h4>
+                <p class="pDscrptn">Teer Dream Numbers are derived from the dream that you show last night, you can have a look and find out what does your dream says if you come across a dream last night. Some people believe teer formulas can help them calculate mathematically or predict teer and we have such a teer formula, you must go through and try yourself.</p>
+            </div>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- DisplayAdSquare1 -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-5590713411868058"
+                 data-ad-slot="9122389971"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Quarrel between husband and wife <br>
+                    ( স্বামী এবং স্ত্রীর মধ্যে ঝগড়া )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">03, 08, 13, 37, 40, 73</td>
+                            <td></td>
+                            <td>3</td>
+                        </tr>
+                    </table>
+                </div>                
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Erotic Dream <br>
+                            ( প্রেমমূলক স্বপ্ন )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">17, 40, 53, 59, 60, 83</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Bathing in the open<br>
+                            ( খোলা স্নান )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">08, 18, 28, 48, 78, 98</td>
+                            <td></td>
+                            <td>8</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Travelling <br>
+                            ( ভ্রমণ )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">08, 14, 18, 52, 64, 68, 74 <br> 78, 98</td>
+                            <td></td>
+                            <td>8</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- DisplayAdSquare1 -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-5590713411868058"
+                 data-ad-slot="9122389971"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Travelling in an airoplane <br>
+                            ( একটি এয়ারোপ্ল্যানে ভ্রমণ )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">23, 43, 53, 63, 68, 73, 83, 93</td>
+                            <td></td>
+                            <td>3</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Taking a walk <br>
+                            ( হাঁটার গ্রহণ )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2"></td>
+                            <td></td>
+                            <td>0, 1</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Studying <br>
+                            ( অধ্যয়ন )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">34, 78</td>
+                            <td></td>
+                            <td>5</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Corpse <br>
+                            ( মৃতদেহ )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2"></td>
+                            <td>9</td>
+                            <td>9</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Playing <br>
+                            ( খেলা )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">00, 27, 40, 50, 57, 60</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Talking over the phone <br>
+                            ( ফোনে কথাবার্তা )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">98, 96, 94</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- DisplayAdSquare1 -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-5590713411868058"
+                 data-ad-slot="9122389971"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Eating <br>
+                            ( খাওয়া )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">01, 02, 05, 15, 16, 45, 75 <br> 85, 95</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Breast Feeding <br>
+                            ( স্তন খাওয়ানো )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">02, 03, 05, 12, 20, 52, 53</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Male <br>
+                            ( পুরুষ )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">06</td>
+                            <td>6</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Female <br>
+                            ( মহিলা )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">05</td>
+                            <td>5</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Child <br>
+                            ( শিশু )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">02, 03</td>
+                            <td>0</td>
+                            <td>2, 3</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Police <br>
+                            ( পুলিশ )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">07, 87, 08</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Wild Pig <br>
+                            ( বন্য শূকর )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">46</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Snake or ilea fish <br>
+                            ( সাপ বা ইলিয়া মাছ )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">09, 17, 37, 57, 77, 99</td>
+                            <td></td>
+                            <td>7</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- DisplayAdSquare1 -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-5590713411868058"
+                 data-ad-slot="9122389971"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Cow, goat or buffalo <br>
+                            ( গরু, ছাগল বা মহিষ )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">12, 18, 19, 22, 24, 34, 42, 54, 72, 74, 84, 94, 97</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Cow <br>
+                            ( গাই )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">04</td>
+                            <td>4</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Tiger <br>
+                            ( বাঘ )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">09</td>
+                            <td>9</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Dog <br>
+                            ( কুকুর )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">04, 05, 06</td>
+                            <td>4</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Horse <br>
+                            ( ঘোড়া )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">08</td>
+                            <td>8</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Bird <br>
+                            ( পাখি )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">02</td>
+                            <td>2</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Elephant <br>
+                            ( হাতি )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">09</td>
+                            <td>9</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Snail <br>
+                            ( শামুক )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">00</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Turtle <br>
+                            ( কচ্ছপ )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">09</td>
+                            <td>9</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Crab <br>
+                            ( কাঁকড়া )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">06, 02</td>
+                            <td>6</td>
+                            <td>2</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Spider <br>
+                            ( মাকড়সা )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">06, 12</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- DisplayAdSquare1 -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-5590713411868058"
+                 data-ad-slot="9122389971"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Honey bee <br>
+                            ( মৌমাছি )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">74, 24, 14, 04, 94</td>
+                            <td></td>
+                            <td>4</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Insect <br>
+                            ( পোকা )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">37, 21</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Sour fruits <br>
+                            ( টক ফল )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">00, 03, 11, 12, 13, 23, 32, 43, 53, 63, 70, 73, 79, 93</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Paddy field <br>
+                            ( ধান ক্ষেত )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">24, 38, 52, 54, 64, 68, 74</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Pumpkin <br>
+                            ( কুমড়া )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">28, 35, 48, 53, 58, 68, 78, 88, 98</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Bamboo <br>
+                            ( বাঁশ )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">00, 01</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Big Tree <br>
+                            ( বড় গাছ )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">08, 09</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Small tree <br>
+                            ( ছোট গাছ )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">02, 03, 08</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Banana <br>
+                            ( কলা )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">11, 03</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Jackfruit <br>
+                            ( কাঁঠাল )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">04</td>
+                            <td></td>
+                            <td>4</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Papaya <br>
+                            ( পেঁপে )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">01, 12</td>
+                            <td>1</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Orange <br>
+                            ( কমলা )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">08, 09</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Chilli <br>
+                            ( মরিচ )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">01, 02</td>
+                            <td>1</td>
+                            <td>2</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Bamboo Shoot <br>
+                            ( বাঁশের অঙ্কুর )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">01, 11</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- DisplayAdSquare1 -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-5590713411868058"
+                 data-ad-slot="9122389971"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Tool used to cut wood <br>
+                            ( কাঠ কাটা ব্যবহৃত সাধনী )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">01, 57, 61, 67</td>
+                            <td></td>
+                            <td>6</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Tools : cutter, chopper, hammer <br>
+                            ( সাধনী : কাটার, হেলিকপ্টার, হাতুড়ি )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">07, 17, 27, 47, 67, 71, 87</td>
+                            <td></td>
+                            <td>7</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>An event or a shopping place <br>
+                            ( কোনও ইভেন্ট বা শপিংয়ের জায়গা )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">18, 28, 38, 52, 58, 62</td>
+                            <td></td>
+                            <td>8</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Money <br>
+                            ( টাকা )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">00, 14, 15, 20, 25, 35, 50</td>
+                            <td></td>
+                            <td>0, 5</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Small water body <br>
+                            ( ছোট জলের শরীর )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">00, 01, 02, 80, 90</td>
+                            <td>4, 7</td>
+                            <td>0</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>An event or a shopping place <br>
+                            ( কোনও ইভেন্ট বা শপিংয়ের জায়গা )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">18, 28, 38, 52, 58, 62</td>
+                            <td>4, 7</td>
+                            <td>0</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Footpath or a road made of bricks <br>
+                            ( ফুটপাথ বা ইট দিয়ে তৈরি একটি রাস্তা )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">19, 61, 71, 91</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Automobile : 4 wheeler <br>
+                            ( অটোমোবাইল: 4 চাকা )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">21, 24, 54, 62, 64</td>
+                            <td>8</td>
+                            <td>4</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Automobile : 2/3 wheeler <br>
+                            ( অটোমোবাইল: 2/3 চাকা )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">52, 53, 54, 58, 60, 62, 68</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>God <br>
+                            ( সৃষ্টিকর্তা )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">09, 13, 29, 89</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Book, pen, paper <br>
+                            ( বই, কলম, কাগজ )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">00, 02, 05</td>
+                            <td>0</td>
+                            <td>3</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Earthquake <br>
+                            ( ভূমিকম্প )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">00, 07, 08, 14, 41, 75, 95</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Ghost or apparition <br>
+                            ( ভূত বা সংযোজন )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">52, 54, 58, 62, 64, 68</td>
+                            <td>9</td>
+                            <td>9</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Oven, kiln, fireplace <br>
+                            ( ওভেন, ভাত, অগ্নিকুণ্ড )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">12, 31, 63, 66, 68</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Fire <br>
+                            ( আগুন )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2"></td>
+                            <td></td>
+                            <td>0</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Hand Pump <br>
+                            ( হাত পাম্প )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">02, 03, 07, 17, 18, 20, 71</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- DisplayAdSquare1 -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-5590713411868058"
+                 data-ad-slot="9122389971"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Water Carrier <br>
+                            ( জলবাহক )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">08</td>
+                            <td>8</td>
+                            <td>8</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Lake <br>
+                            ( হ্রদ )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">06</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Boat <br>
+                            ( নৌকা )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">03</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Rice Chopper <br>
+                            ( চাল চপার )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">08</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Big river <br>
+                            ( বড় নদী )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">08</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Cooking pan <br>
+                            ( রান্না প্যান )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">02</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Shoe <br>
+                            ( জুতো )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">08</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Train <br>
+                            ( রেলগাড়ি )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">09</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Temple <br>
+                            ( মন্দির )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">01, 02, 09</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Umbrella <br>
+                            ( ছাতা )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">01</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Pencil <br>
+                            ( পেন্সিল )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">07, 77, 79</td>
+                            <td>7</td>
+                            <td>7</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Winner <br>
+                            ( বিজয়ী )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">78, 46, 63, 45</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Bike <br>
+                            ( বাইক )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">66</td>
+                            <td></td>
+                            <td>6</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainprDiv">
+                <div class="todayResult">
+                    <table class="cNTable">
+                        <caption>Ghost <br>
+                            ( ভূত )</caption>
+                        <tr>
+                            <th colspan="2">Direct</th>
+                            <th>House</th>
+                            <th>Ending</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">00, 32, 47</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- DisplayAdSquare1 -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-5590713411868058"
+                 data-ad-slot="9122389971"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+            <div class="mainDiv">
+                <p><b>Note:-</b> We believe that Teer Dream numbers is the best way to success in this game. If one can nicely understand one's dream he can easily find Teer Target numbers. Teer target calculation depends on daily previous day's win numbers of Shillong, Khanapara and Juwai. Shillong and Khanapara results are depends on each other.</p>
+                <br>
+                <hr>
+                <br>
+                <p>Always focus on your skill improvement so that you can create better history in the Shillong, Khanapara and Juwai Teer Game. In this page we provide the complete yearly Shillong, Khanapara and Juwai previous results for free with 100% accurate list. There are lots of advantages of to look back on previous teer results. We know all the teer games is a number game where the resultent numbers outcome at the end of the day. So keeping eye on previous results will help you to succed in today's teer game. Good luck...</p>
+            </div>
+        </section>
+
+        <aside class="rightAside">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- Side Display Ad -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-5590713411868058"
+                 data-ad-slot="6155539189"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </aside>
+    </main>
+    <footer class="siteFooter">
+        <div>
+            <h6>About</h6>
+            <p class="text-justify">
+                <a href="http://teercounterofficial.com/">Teer Counter Official</a>
+                is a simple blog which collects Shillong, Khanapara and Juwai Teer Results from various sources and displays the Teer Game results on regular basis. We are not responsible for any wrong results displayed here. If someone provide service on behalf of us then we are not responsible for that as we publish results only and never approach anybody with an intention of selling any services. This is completely free blog to be used for viewing daily results and hit numbers only. For accuracy we suggest viewers to appoach local legal teer counters of Shillong, Khanapara and Juwai. Along with that we also provide dream numbers, common numbers, previous results. Our site must be used as information purpose only. We neither motivate anyone to play Archery Teer game nor creating any barrier for playing such games. Consider our site as similar to those who provides job advertisement and exam results.
+            </p>
+        </div>
+        <div class="footerMainDiv">
+            <div class="linkContainer linkContainerL">
+                <h6>Categories</h6>
+                <ul class="footer-links">
+                    <li><a href="http://teercounterofficial.com/">Home Page</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="https://play.google.com/store/apps/details?id=com.sufideveloper.teer&hl=en_IN">Android App</a></li>
+                </ul>
+            </div>
+            <div class="linkContainer linkContainerR">
+                <h6>Quick Links</h6>
+                <ul class="footer-links">
+                    <li><a href="http://teercounterofficial.com/">Teer Results</a></li>
+                    <li><a href="shillongpreviousresults.php">Shillong Previous Results</a></li>
+                    <li><a href="khanaparapreviousresults.php">Khanapara Previous Results</a></li>
+                    <li><a href="juwaipreviousresults.php">Juwai Previous Results</a></li>
+                    <li><a href="dreamnumbers.html">Teer Dream Numbers</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="crtDiv col-md-8 col-sm-6 col-xs-12">
+                <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by
+                    <a href="#">Sufi Developer</a>.
+                </p>
+            </div>
+            <div class=" crtDiv col-md-4 col-sm-6 col-xs-12">
+                <ul class="social-icons">
+                    <li><a class="facebook" href="https://www.facebook.com/Teer-Counter-Official-285405812005113/"><i class="fa fa-facebook"></i></a></li>
+                    <li><a class="twitter" href="https://www.facebook.com/Teer-Counter-Official-285405812005113/"><i class="fa fa-twitter"></i></a></li>
+                    <li><a class="dribbble" href="https://www.facebook.com/Teer-Counter-Official-285405812005113/"><i class="fa fa-dribbble"></i></a></li>
+                    <li><a class="linkedin" href="https://www.facebook.com/Teer-Counter-Official-285405812005113/"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    
+    <script src="Works/nav.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+
+</html>

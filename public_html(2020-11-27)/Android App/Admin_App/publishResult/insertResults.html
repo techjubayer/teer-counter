@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 	<title>Insert Results</title>
+ 	<link rel="stylesheet" href="Style.css">
+	 <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+	
+ </head>
+ <body>
+	 <main>
+		 <div class="container">
+			 <table>
+				 <!-- <caption>Insert Results</caption> -->
+				 <tr>
+					 <td>Select Place: </td>
+					 <td>
+						 <select id="placeSelect" class="choose inputTxt form-control">
+							 <option value="juwai">Juwai</option>
+							 <option value="khanapara">Khanapara</option>
+							 <option value="shillong">Shillong</option>
+						 </select>
+					 </td>
+				 </tr>
+				 <tr>
+					 <td>Date: </td>
+					 <td><input type="text" id="Date" class="choose inputTxt"></td>
+				 </tr>
+				 <tr>
+					<td>
+						Push Notification: 
+					 </td>
+					 <td>
+						 <input type="checkbox" checked>
+					 </td>
+				 </tr>
+				 <tr>
+					 <td colspan="2">
+						 <table class="subTable">
+							<tr align="center">
+								<th>F_R Result</th>
+								<th>S_R Result</th>
+							</tr>
+							<tr>
+								<td><input type="text" id="F_R" class="choose inputTxt" placeholder="Enter F/R result"></td>
+								<td><input type="text" id="S_R" class="choose inputTxt" placeholder="Enter S/R result"></td>
+							</tr>
+							<tr>
+								<td align="center">
+									 <button class="btn btn-primary choose" id="submitF_R">Publish</button>
+								 </td>
+								 <td align="center">
+									 <button class="btn btn-primary choose" id="submitS_R">Publish</button>
+								 </td>
+							</tr>
+						 </table>
+					 </td>
+				 </tr>
+				 
+				 <tr>
+					 <td colspan="2" align="center">
+						 <p id="status">Status</p>
+					 </td>
+				 </tr> 			
+				 
+			 </table>
+			 
+		 </div>
+	 </main>
+
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	 <script src="logic.js"></script>
+
+ </body>
+ </html>

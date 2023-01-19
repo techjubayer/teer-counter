@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to left, #3e94ec, #25b7c4);
+}
+.mainDiv{
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.075);
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.37);
+    border: 1px solid rgba(0, 0, 0, 0.466);
+    border-radius: 5px;
+}
+.mainDiv > h2, .mainDiv > h3{
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.37);
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.37);
+    border: 1px solid black;
+    background-color: #050b2ee3;
+    color: white;
+    border-radius: 5px;
+}
+.todayResult{
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.37);
+    padding: 20px 20px 30px;
+    background-color: #1b1e24ec;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.todayResult > h5{
+    margin: auto;
+    color: white;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.37);
+}
+.todayResult > h2{
+    color: white;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.37);
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+.PreRe{
+    margin: auto;
+    padding: 0;
+}
+.PreRe > h2{
+    color: #050b2ee3;
+}
+.mainPreRe{
+    background-color: rgba(192,192,192,0.2);
+    border-radius: 5px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.37);
+    height: 78px;
+    margin-top: 8px;
+    overflow: hidden;
+    border:1px solid #242020;
+}
+.Image{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    margin-left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Vertical_Box{
+    position: relative;
+    margin-left: 10px;
+    height: fit-content;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.Table{
+    width: 40%;
+    height: inherit;
+    float: right;
+    border-collapse: collapse;
+}
+.Vertical_Box > h3{
+    margin-bottom: 5px;
+    color: white;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.37);
+}
+
+.Vertical_Box > h5{
+    margin-top: 5px;
+    color:  white;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.37);
+}
+
+
+.Header_row{
+            background-color: #0e153a;
+            color: white;
+        }
+.Table td,th{
+            text-align:center;
+            border-left: 1px solid black;
+            border-color: #0e153a;
+            color:  white;
+            text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.37);
+        }

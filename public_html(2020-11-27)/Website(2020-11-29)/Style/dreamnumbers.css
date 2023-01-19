@@ -1,0 +1,40 @@
+.mainprDiv{
+            border-radius: 5px;
+            padding-top: 0;
+        }
+        .mainprDiv > h4{
+            box-shadow: -5px -5px 2px rgba(0, 0, 0, 0.37);
+            padding: 10px;
+            font-weight: 600;
+            text-align: center;
+            text-shadow: -5px -2px 2px rgba(0, 0, 0, 0.37);
+            border: 1px solid black;
+            background-color: #050b2ee3;
+            color: white;
+            border-radius: 5px;
+        }
+        .todayResult{
+            width: 100%;
+            /* padding: 20px 10px; */
+            background-color: #1b1e24ec;
+            color: white;
+            border-radius: 5px;
+        }
+        table > caption{
+            border-bottom: 1px solid whitesmoke;
+            
+        }
+        table th, td{
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            border-right: 1px solid whitesmoke;
+        }
+        table th:last-child, table td:last-child{
+            border-right: none;
+        }
+        
+        table th{
+            border-bottom: 1px solid whitesmoke;
+            
+        }

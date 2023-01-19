@@ -1,0 +1,148 @@
+main div{
+    width: 95%;
+    margin: auto;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.075);
+    box-shadow: -5px -5px 2px rgba(0, 0, 0, 0.37);
+    border: 1px solid rgba(0, 0, 0, 0.466);
+}
+.rightAside{
+    display: none;
+}
+.leftAside{
+    position: absolute;
+    right: 100%;
+    width: 70%;
+    transition: all 700ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    transform: rotateX(270deg);
+    z-index: 1000;
+}
+main section{
+    background: linear-gradient(to left, #3e94ec, #25b7c4);
+    width: 100%;
+    height: unset;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.navUl li {
+    padding: 15px;
+    border-bottom: 1px solid rgba(224, 212, 212, 0.445);
+}
+.navUl {
+    background-color: #050b2ee3;
+    width: 100%;
+    list-style: none;
+    transition: all 700ms ease-out;
+}
+.navUl li {
+    color: white;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid rgba(224, 212, 212, 0.445);
+}
+.navUl > li:nth-child(2){
+    padding-bottom: 0;
+}
+.navUl li svg{
+    width: 14px;
+    height: 14px;
+    color: white;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.navSubUl{
+    margin-left: 10px;
+    list-style: none;
+    transition: all 700ms ease-out;
+}
+.navSubUl li{
+    transition: all 700ms ease-out;
+    border-bottom: none;
+    padding-left: 10px;
+}
+
+.navUl > li:hover{
+    color: cyan;
+    border-bottom: 1px solid #66ffff;
+    cursor: pointer;
+}
+.navUl > li:hover .hsvg{
+    color: cyan;
+
+}
+.navSubUl li:hover{
+    color: cyan;
+    border-bottom: 1px solid #66ffff;
+    cursor: pointer;
+}
+.navSubUl li:hover svg{
+    color: cyan;
+}
+@media (min-width:923px){
+    main{
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(124, 124, 124, 0.158);
+        display: flex;
+    }
+    .leftAside{
+        position: relative;
+        transition: all 700ms ease-out;
+        width: 20%;
+        height: 100vh;
+        /* background-color: linear-gradient(to left, #25b7c4, #3e94ec); */
+        border-right: 1px solid rgba(224, 212, 212, 0.445);
+        right: unset;
+        opacity: 1;
+        visibility: visible;
+        transform: unset;
+    }
+    .rightAside{
+        display: block;
+        width: 15%;
+        height: 100vh;
+        background-color: linear-gradient(to left, #144e53, #3e94ec);
+    }
+    main section{
+        width: 65%;
+        height: 100vh;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .navUl {
+        background-color: #050b2ee3;
+        width: 100%;
+        height: 100vh;
+        list-style: none;
+        transition: all 700ms ease-out;
+        overflow: hidden;
+    }
+    .navUl li {
+        /* color: rgba(51, 35, 35, 0.884); */
+        font-size: 16px;
+        padding: 20px 0 20px 0;
+        border-bottom: 1px solid rgba(224, 212, 212, 0.445);
+    }
+    .navUl > li:nth-child(2){
+        padding-bottom: 0;
+    }
+    .navUl li svg{
+        /* color: rgb(78, 62, 62); */
+        margin-right: 10px;
+        margin-left: 15px;
+    }
+
+    .navSubUl{
+        width: 100%;
+        list-style: none;
+        transition: all 700ms ease-out;
+    }
+    .navSubUl li{
+        transition: all 700ms ease-out;
+        border-bottom: none;
+        padding-left: 10px;
+    }
+}

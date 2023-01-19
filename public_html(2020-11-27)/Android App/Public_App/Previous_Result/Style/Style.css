@@ -1,0 +1,80 @@
+/* Version Code: 2 */
+
+
+*{
+    box-sizing: border-box;
+    font-size: 40px;
+}
+body{
+    background-color: #43dde6;
+}
+.Horizontal_Box{
+        width: 100%;
+        border-radius: 5px;
+        -webkit-box-shadow: 2px 8px 7px 1px rgb(18, 15, 15);
+        -moz-box-shadow: 2px 8px 7px 1px rgb(18, 15, 15);
+        box-shadow: 2px 8px 7px 1px rgb(18, 15, 15);
+        border:1px solid #242020;
+        background-color: #43dde6;
+        margin: auto;
+        margin-bottom: 20px;
+        overflow: hidden;
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+.subHorizontal_Box{
+    display: inline-flex;
+    align-items: center;
+}
+
+.Image{    
+    height: 120px;
+    width: 120px;
+    margin-left: 5px;
+    /* border: 1px solid red; */
+}
+
+.Vertical_Box{
+    margin-left: 10px;
+    color: #0e153a;
+    /* border: 1px solid blue; */
+}
+
+
+.Vertical_Box h2{
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-bottom: 0;
+    font-size: 60px;
+    
+}
+
+.Vertical_Box h4{
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 0;
+    font-size: 35px;
+    color: whitesmoke;
+}
+
+.Table{
+    width: 40%;
+    float: right;
+    border-collapse: collapse;
+    /* border: 1px solid red; */
+}
+
+.Header_row{
+            background-color: #0e153a;
+            color: whitesmoke;
+        }
+.Table td,th{
+            text-align:center;
+            border-left: 1px solid black;
+            border-color: #0e153a;
+            font-size: 60px;
+        }
+.Table th{
+    padding: 15px 0;
+}

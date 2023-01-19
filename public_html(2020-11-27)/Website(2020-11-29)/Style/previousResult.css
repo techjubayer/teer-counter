@@ -1,0 +1,101 @@
+
+.mainDiv{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.mainprDiv{
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.075);
+}
+.pDscrptn{
+    text-indent: 20px;
+}
+.mainprDiv h2{
+    box-shadow: -5px -5px 2px rgba(0, 0, 0, 0.37);
+    padding: 10px;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: -5px -2px 2px rgba(0, 0, 0, 0.37);
+    border: 1px solid black;
+    background-color: #050b2ee3;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.prTable{
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    box-shadow: -5px -5px 2px rgba(0, 0, 0, 0.37);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.prTable tbody tr td, .prTable thead tr th{
+    border-bottom: none;
+}
+.prTable thead{
+    border-bottom: 1px solid #444;
+}
+
+.prTable tbody tr {
+    opacity: 0;
+    animation: table;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    background: #1b1e24d5;
+    border-top: 1px solid #C1C3D1;
+}
+.prTable tbody tr:nth-child(odd) {
+    background: #1b1e24ab;
+}
+.prTable tbody tr td{
+    transition: all 0.2s ease-in-out;
+    /* z-index: -1; */
+    border-right: 1px solid #C1C3D1;
+}
+.prTable tbody tr:hover td {
+    background: #1b1e24d3;
+    color: #FFFFFF;
+    border-top: 1px solid #22262e;
+    border-bottom: 1px solid #22262e;
+}
+.prTable th {
+    font-weight: normal;
+    text-align: center;
+    background: #1b1e24ec;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    border-bottom: 4px solid #9ea7af;
+    border-right: 1px solid #343a45;
+    padding: 20px;
+}
+.prTable td {
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    color: #D5DDE5;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.1);
+    border-top: 1px solid #C1C3D1;
+    border-bottom: 1px solid #C1C3D1;
+    /* z-index: -2221; */
+}
+.prTable td:first-child {
+    text-align: center;
+}
+@keyframes table {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}

@@ -1,0 +1,60 @@
+/* Version Code: 2 */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #43dde6;
+}
+.commonNumberContainer{
+    background-color: rgba(87, 92, 91, 0.705);
+    /* box-shadow: 3px 1px 3px 3px whitesmoke, -3px 0px 3px 3px rgb(241, 240, 237); */
+    width: 95%;
+    margin: auto;
+    margin-top: 200px;
+    /* padding: 10px; */
+    box-shadow: 5px 5px 5px #575151,-5px 5px 5px #575151;
+    border-radius: 10px;
+    overflow: hidden;
+    /* padding-top: 20px; */
+}
+.commonNumberContainer h2, .commonNumberContainer h4{
+    /* border: 1px solid black; */
+    /* width: 90%; */
+    margin: auto;
+    background-color: #0e153a;
+    color: #00fff0;
+    text-align: center;
+    padding: 10px 0;
+    /* margin-top: 10px; */
+
+}
+
+
+.commonNumberTable{
+    position: relative;
+    background-color: #0e153a;
+    /* border: 1px solid black; */
+    width: 100%;
+    margin: auto;
+    padding: 0;
+}
+table tr th{
+    margin: 0;
+    padding: 8px 0px;
+    font-size: 20px;
+    /* text-align: center; */
+    background-color: #2c2e38;
+    color: whitesmoke;
+}
+.commonNumberTable tr td{
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+    background-color: white;
+    color: #2c2e38;
+    font-size: 18px;
+    padding: 10px 0;
+}
